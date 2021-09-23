@@ -1,0 +1,22 @@
+{% extends "resume/base.html" %}
+{% load static %}
+
+
+{% block body %}
+<div class="container">
+<div class="row success">
+    <div class="col-sm-12">
+      <div class="service-box">
+        <div class="service-ico">
+        </div>
+        <div class="service-content">
+          <h2 class="s-title">Hello {{name}}, Your Message Was Sent Successfully</h2>
+          <p class="s-description text-center">
+            You Can Check Your Mail For A Copy of Your Response. <br>
+            Click <strong><a href="{% url 'index' %}">Here</a></strong> To Go Back To The Homepage.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
