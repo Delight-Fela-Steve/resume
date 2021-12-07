@@ -36,3 +36,7 @@ def contact(request):
 
 def success(request):
     return render(request, "resume/success.html")
+
+
+def portfolio(request):
+    return render(request, "resume/portfolio.html")
